@@ -91,8 +91,8 @@ li.dropdown-item:hover:not(:last-child) {
 .upsection {
   background-image:url("custom-experience.jpg");
   background-attachment: fixed;
-  width:
-  height:
+  width:100%;
+  height:1473px;
   font-family:FormataBQ;}
 
 
@@ -126,33 +126,36 @@ button>a {
  text-align:center;}
 
 
-
-
 .maindiv {
   position:relative;
-  width:100%;
-  margin: 160px 260px auto;}
+  padding-left: 250px;
+  padding-top: 30px;
+  width:100%;}
 
 
 .firstsection-div1 {
   background-color:rgba(255, 102, 0, 0.9);
   display: inline-block;
   color:white;
+  margin-right:25px;
   width: 290px;
   height: 174px;
   text-align:left;
   border-radius:6px;
+  padding-left:5px;
   box-shadow: 0px 1px 4px 0px #a2a2a2;}
 
 
 .firstsection-div2 {
   background-color:rgba(255, 51, 154, 0.9);
   display: inline-block;
+  margin-right:25px;
   color:white;
   width: 290px;
   height: 174px;
   text-align:left;
   border-radius:6px;
+  padding-left:5px;
   box-shadow: 0px 1px 4px 0px #a2a2a2;}
 
 
@@ -164,9 +167,10 @@ button>a {
   height: 174px;
   text-align:left;
   border-radius:6px;
+  padding-left:5px;
   box-shadow: 0px 1px 4px 0px #a2a2a2;}
 
-/*
+
 .firstsection-div1:hover {
 background-color:rgba(255, 102, 0, 0.9);}
 
@@ -177,12 +181,56 @@ background-color:rgba(255, 51, 154, 0.9);}
 
 .firstsection-div3:hover {
 background-color:rgba(102, 204, 51, 0.9);}
-*/
+
 
 
 .social {
- background-color: rgb(80, 158, 236)
+ background-color: rgb(80, 158, 236);
+ width:100%;
+ height:451px;
+ padding-bottom:50px;}
+
+
+.social>h2{
+font-family:FormataBQ;
+text-align:center;
+font-size:42px;
+color:white;
+padding-top:30px;
 }
+
+.social ul {
+display:inline-flex;
+text-align:center;
+padding-left:290px; /* not sure about that */
+}
+
+.social p {
+margin:0px 10px 0px 10px;}
+
+.social button {
+ background-color: #a6d8e3;
+ color:white;
+ width: 188px;
+ height: 39px;
+ display:block;
+ margin:50px 0px 0px 600px;
+ border-radius: 6px;
+ box-shadow: 0px 1px 2px 0px rgba(62, 157, 194, 0.75);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footerdivs {
   display:inline-block;}
