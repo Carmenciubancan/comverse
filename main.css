@@ -330,117 +330,6 @@ list-style:none;}
 
 
 
-
-  .success {
-    background-color:#ececec;
-    width: 100%;
-    padding-bottom:50px;
-  }
-
-  .success h2 {
-   font-family: FormataBQ;
-   color:#565656;
-   font-size: 42px;
-   text-align:center;
-   padding-top: 20px;
-   margin:0;
-  }
-
-.success-stories-div {
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-  padding: 0;
-}
-
-
-.cb-quote {
-  font-family: FormataBQ;
-  display:inline-block;
-  color: #565656;
-  font-size: 20px;
-  line-height: 28px;
-  position:absolute;
-  bottom: 100px;
-  margin: 15px;
-
-
-}
-
-  .cb-face {
-    border-radius: 2px;
-    position:relative;
-    background-color: #ffffff;
-    display:inline-block;
-    width: 349px;
-    height: 230px;
-  }
-
-
-  .cb-face2 {
-   border-top: 1px solid lightgrey;
-   margin-top: 25px;
-
-  }
-
-  .cb2 > h3 {
-    display: inline-block;
-    color:#3AA6DB;
-    margin-bottom:0px;
-
-  }
-
-  .cb2 > p {
-    display: inline-block;
-    color:grey;
-  }
-
-  .cb2-img {
-    display: inline-block;
-    position: absolute;
-    left: 230px;
-    bottom: 30px;
-
-  }
-
- .cb2 {
-  margin-left:10px;
-  width: 200px;
-}
-
-.success-img {
-  float: left;
-}
-
-.multilinks {
-  background-color:#ffffff;
-  border-radius: 2px;
-  width: 229px;
-  height: 209px;
-  display:inline-block;
-}
-
-.multilinks2 {
-  border-top: 1px solid grey;
-}
-
-.multilinks-img {
-  float:right;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .foo {
  background-image:url('backgrounds/footer.jpg');
  width: 100%;
@@ -451,7 +340,6 @@ list-style:none;}
 
 
 .foocolumns {
-  display:inline-block;
   font-family: Arial;
   color:#eeeeee;
   line-height: 22px;
@@ -470,7 +358,6 @@ list-style:none;}
   background-color:rgba(255, 255, 255, 0.1);
   width: 263px;
   height: 323px;
-  display:inline-block;
   float: left;
   margin-left: 50px;
   border-left: 1px solid black;
@@ -550,19 +437,6 @@ list-style:none;}
   display: block;
 }
 
-.#youtube {
-  background-image: url("youtube.png")
-}
-
-.#twitter {
-  background-image:url("twit.png")
-
-}
-
-.#linkedin {
-  background-image: url("in.png");
-
-}
 
 .copyright {
   font-family: Arial;
